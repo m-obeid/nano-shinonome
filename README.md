@@ -19,7 +19,7 @@ Next steps are slightly different depending on your shell. I use `zsh`, so it wo
 echo 'alias "nano=~/.config/nano-shinonome/script/nano.sh"' >> ~/.zshrc
 ```
 
-On bash, it would be:
+On `bash`, it would be:
 
 ```bash
 echo 'alias "nano=~/.config/nano-shinonome/script/nano.sh"' >> ~/.bashrc
