@@ -16,14 +16,10 @@ chmod +x ~/.config/nano-shinonome/script/nano.sh
 Next steps are slightly different depending on your shell. I use `zsh`, so it would be:
 
 ```bash
-echo 'alias "nano=~/.config/nano-shinonome/script/nano.sh"' >> ~/.zshrc
+echo '~/.config/nano-shinonome/script/rc.sh' >> ~/.zshrc
 ```
 
-On `bash`, it would be:
-
-```bash
-echo 'alias "nano=~/.config/nano-shinonome/script/nano.sh"' >> ~/.bashrc
-```
+On bash you would just need to change it to ~/.bashrc
 
 Finally restart your terminal. You can optionally delete the cloned repo now.
 
