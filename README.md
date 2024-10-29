@@ -10,13 +10,13 @@ Intended for use on *nix systems ofc, so mac, linux or bsd, I use it on Arch.
 git clone https://github.com/m-obeid/nano-shinonome.git
 cd nano-shinonome
 cp -r .config ~
-chmod +x ~/.config/nano-shinonome/script/nano.sh
+chmod +x ~/.config/nano-shinonome/script/*.sh
 ```
 
 Next steps are slightly different depending on your shell. I use `zsh`, so it would be:
 
 ```bash
-echo '~/.config/nano-shinonome/script/rc.sh' >> ~/.zshrc
+echo 'source ~/.config/nano-shinonome/script/rc.sh' >> ~/.zshrc
 ```
 
 On bash you would just need to change it to ~/.bashrc
