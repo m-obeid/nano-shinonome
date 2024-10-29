@@ -16,7 +16,7 @@ chmod +x ~/.config/nano-shinonome/script/*.sh
 Next steps are slightly different depending on your shell. I use `zsh`, so it would be:
 
 ```bash
-echo -e '\nsource ~/.config/nano-shinonome/script/rc.sh' >> ~/.zshrc
+echo -e "\nsource ~/.config/nano-shinonome/script/rc.sh" >> ~/.zshrc
 ```
 
 On bash you would just need to change it to ~/.bashrc
